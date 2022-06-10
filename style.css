@@ -1,0 +1,122 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: transparent;
+ height: 100%;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: linear-gradient(#71B852,#01A157);
+  }
+  #logo{
+      margin-top: 25px;
+      margin-left: 50px;
+      width: 200px;
+      height: 80px;
+  }
+  .header-right{
+      position: absolute;
+      margin-top: -55px;
+      margin-left: 60%;
+  }
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #2CAA57;
+    transform: scale(1.1);
+}
+.corpo{
+    margin-top: -50px;
+}
+.carrosel{
+    width: 100%;
+    height: 520px;
+    margin: 50px auto;
+
+}
+.carrosel ul{
+    display: flex;
+    list-style: none;
+    width: 1543px;
+    height: 520px;
+    overflow: hidden;
+}
+.carrosel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+@keyframes slide{
+    0%{left:0px}
+    20%{left: 0px;}
+
+    30%{left: -1545px;}
+    50%{left: -1545px;}
+
+    60%{left: -3090px;}
+    90%{left: -3090px;}
+
+    100%{left: 0px;}
+}
+.menu2{
+    width: 100%;
+    height: 150px;
+    margin-top: -50px;
+    margin-left: 0px;
+    background: linear-gradient(#69C149,#2CAA57);
+  }
+.posts{
+    padding-left: 15px;
+}
+.menus{
+    text-align: center;
+    padding-top: 50px;
+}
+.menu2 a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.menu2 a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #2CAA57;
+  transform: scale(1.1);
+}
+.hora{ 
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -155px;
+    width: 50px;
+    height: 50px;
+}
+.informativos{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+footer{
+    margin-top: 100px;
+    padding-top: 105px;
+    height: 100px;
+    background: #2CAA57;
+    text-align: center;
+}
